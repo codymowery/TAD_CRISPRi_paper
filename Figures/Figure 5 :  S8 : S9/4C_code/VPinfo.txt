@@ -1,0 +1,5 @@
+expname	primer	firstenzyme	secondenzyme	genome	vpchr	vppos	analysis	fastq
+CTLA4StimEn_HandD_001	CAAGCTATATGCCCAAGCTT	HindIII	DpnII	hg38	2	203830575	cis	CTLA4StimEn_HandD_001_R1.fastq.gz
+CTLA4StimEn_HandD_002	CAAGCTATATGCCCAAGCTT	HindIII	DpnII	hg38	2	203830575	cis	CTLA4StimEn_HandD_002_R1.fastq.gz
+CTLA4StimEn_HandD_003	CAAGCTATATGCCCAAGCTT	HindIII	DpnII	hg38	2	203830575	cis	CTLA4StimEn_HandD_003_R1.fastq.gz
+CTLA4StimEn_HandD_004	CAAGCTATATGCCCAAGCTT	HindIII	DpnII	hg38	2	203830575	cis	CTLA4StimEn_HandD_004_R1.fastq.gz

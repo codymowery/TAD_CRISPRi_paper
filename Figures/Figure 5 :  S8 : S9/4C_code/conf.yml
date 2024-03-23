@@ -1,0 +1,74 @@
+default:
+ fragFolder: /seq/epiprod02/sgaldon/Zeyu/4C/merged_libs/fragments
+ normalizeFactor: 1000000
+ qualityCutoff : 0
+ trimLength : 0
+ minAmountReads : 1000
+ maxAmountReads : 1000000000000
+ readsQuality : 1
+ cores : 8
+ wSize : 21
+ nTop : 2
+ alnStart : TRUE
+ mapUnique : FALSE
+ nonBlind : FALSE
+ wig : TRUE
+ bigwig : TRUE
+ cisplot : FALSE
+ genomePlot : TRUE
+ tsv : FALSE
+ bins : FALSE
+ mismatchMax : 0
+ chr_random : FALSE
+ chr_fix : FALSE
+ chrUn : FALSE
+ chrM : FALSE
+ prefix : chr
+ 
+ enzymes:
+  -
+    BamHI
+    GGATCC
+  -
+    BfaI
+    CTAG
+  -
+    Csp6I
+    GTAC
+  -
+    DpnII
+    GATC
+  -
+    EcoRI
+    GAATTC
+  -
+    HindIII
+    AAGCTT
+  -
+    MboI
+    GATC
+  -
+    NlaIII
+    CATG
+  -
+    XbaI
+    TCTAGA
+ genomes:
+  -
+    hg38
+    BSgenome.Hsapiens.UCSC.hg38
+  
+    
+ bowtie2:
+  -
+    hg38    
+    /seq/epiprod02/Chadi/Genomes/Bowtie2/hg38/
+
+    
+    
+ plot:
+  maxY: 2500
+  plotView: 1000000
+  xaxisUnit: 'Mb'
+  plotType: 'PDF'
+  binSize: 25000
