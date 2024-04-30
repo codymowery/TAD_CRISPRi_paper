@@ -2,7 +2,7 @@
 
 source('sourceFigures.R')
 
-# HiC downloaded from http://3dgenome.fsm.northwestern.edu/ using CD4_24h_stim, Yang_2020_raw, 10kb res, coordinates chr2:202520000-203970000 
+# HiC downloaded from http://3dgenome.fsm.northwestern.edu/ using K562, Rao_2014-raw, 10kb res, approx coordinates chr2:201000000–205500000 
 
 ## Gene Model for assay schematic in Fig 1a
 ggplot()+
